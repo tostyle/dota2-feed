@@ -2,7 +2,7 @@ var express = require('express');
 var fetch = require('node-fetch');
 var app = express();
 
-var key = "21575B9631850EA21215B1DA1B6A9D79";
+var key = "A71660028EBEEE9D2EA8CF96CE256A56";
 var api = "http://api.steampowered.com/ISteamUser/GetFriendList/v0001/?key="+key+"&steamid=76561198061756255&relationship=friend";
 var getOwngame = function(steamID){
 return "https://api.steampowered.com/IDOTA2Match_570/GetMatchHistory/V001/?format=json&matches_requested=1&key="+key+"&account_id="+steamID;
